@@ -1,0 +1,27 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  padding: 36px 24px;
+  text-align: center;
+}
+.footer-inner { display: flex; flex-direction: column; gap: 8px; align-items: center; }
+
+.footer-brand {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  color: var(--green);
+}
+.footer-brand span { color: var(--cyan); }
+.fb-bracket { color: var(--muted); }
+
+.footer-copy {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.footer-motto {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
